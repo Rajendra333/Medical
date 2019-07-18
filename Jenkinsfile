@@ -4,7 +4,7 @@ pipeline {
     stage('Clone')
     {
       steps{
-        git branch: 'master',url 'https://github.com/Rajendra333/Medical.git'
+       sh 'git clone https://github.com/Rajendra333/Medical.git'
       }
     }
     stage('Build'){
