@@ -7,7 +7,7 @@ pipeline {
        sh 'git clone https://github.com/Rajendra333/Medical.git'
       }
     }
-    stage('Build'){
+    stage('build'){
       steps{
         sh 'mvn cleanpackage'
       }
