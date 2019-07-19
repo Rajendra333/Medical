@@ -25,6 +25,20 @@
     <directory>target</directory>
 
     <plugins>
+	    <groupId>groupeId</groupId>
+    <artifactId>artifactId</artifactId>
+    <version>version</version>
+    <packaging>pom</packaging>
+    <description>description</description>
+    <build>
+        <plugins>
+            <plugin> 
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.6.0.1398</version>
+            </plugin>
+        
 	<!--
 	<plugin>        
 	<groupId>org.codehaus.mojo</groupId>       
@@ -55,14 +69,6 @@
              <outputDirectory>target</outputDirectory>
             </configuration>
         </plugin>
-
-      <plugin>
-        <groupId>org.sonarsource.scanner.maven</groupId>
-        <artifactId>sonar-maven-plugin</artifactId>
-        <version>3.6.0.1398</version>
-      </plugin>
-    
-
     </plugins> 
     <finalName>${project.artifactId}${project.version}</finalName>
   </build>
