@@ -24,13 +24,6 @@
   <build>
     <directory>target</directory>
 
-    <plugins>
-    <groupId>groupeId</groupId>
-    <artifactId>artifactId</artifactId>
-    <version>version</version>
-    <packaging>pom</packaging>
-    <description>description</description>
-    <build>
      
       <plugin>
         <groupId>org.sonarsource.scanner.maven</groupId>
