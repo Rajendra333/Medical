@@ -5,7 +5,7 @@ pipeline {
 		stage ('clone') {
 	   steps{
                      
-                     git url: 'https://github.com/Rajendra333/app.git'
+                     git url: 'https://github.com/Rajendra333/Medical.git'
 		}
                 }
 		stage ('Build') {
